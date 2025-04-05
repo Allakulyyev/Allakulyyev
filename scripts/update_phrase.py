@@ -17,13 +17,10 @@ PHRASES_EN = [
     "Yes, I use dark mode",    
 ]
 
-
-
 def get_phrase_by_day(phrases):
     """Return a phrase based on the day of the year"""
     index = datetime.datetime.now().timetuple().tm_yday % len(phrases)
     return phrases[index]
-
 
 def update_file_placeholder(filename, placeholder, phrase):
     """Replace placeholder with phrase in given file"""
@@ -35,7 +32,6 @@ def update_file_placeholder(filename, placeholder, phrase):
     with open(filename, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-
 def run_phrase_update():
     phrase_en = get_phrase_by_day(PHRASES_EN)
-    update_file_placeholder("README.md", "[DAILY_PHRASE]", phrase_en)
+    update_file_placeholder("README.md", "[DAILY_PHRASE]", phrase_en)  # ← убраны лишние скобки
