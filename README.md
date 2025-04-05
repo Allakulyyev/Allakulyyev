@@ -8,7 +8,7 @@
 <h3 align="center">[DAILY_PHRASE]</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
-### 🧠 About Me
+### About Me
 
 My name is **Maksat**, I’m [AGE] years old.. I’m a backend developer specializing in Python and system automation.  
 I love programming for its clarity, logic, and the power to build meaningful solutions.
