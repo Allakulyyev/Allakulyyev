@@ -5,7 +5,7 @@
   <a href="README.ru.md">Читать на русском</a>
 </p>
 
-<h3 align="center" style="margin-bottom: 6px;">[DAILY_PHRASE]</h3>
+<h3 align="center" style="margin-bottom: -3px;">[DAILY_PHRASE]</h3>
 <p align="center" style="margin-top: 0;"><i>daily dose of dev humor</i></p>
 
 ### 🧠 About Me
