@@ -17,5 +17,5 @@ def update_age_in_files(age: int, files: list):
 def run_age_update():
     birth_date = datetime(1996, 7, 4)
     age = calculate_age(birth_date)
-    files = ["README.md", "README.ru.md"]
+    files = ["README.md"]
     update_age_in_files(age, files)
