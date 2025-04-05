@@ -17,18 +17,6 @@ PHRASES_EN = [
     "Yes, I use dark mode",    
 ]
 
-PHRASES_RU = [
-    "Работает — не трогай. Не работает — тоже не трогай. Вдруг заработает.",
-    "Чем больше понимаю код, тем меньше понимаю заказчика.",
-    "Коммент в коде: // не спрашивай как это работает.",
-    "Когда багов нет — это не успех. Это иллюзия.",
-    "Поменял одну строчку — пересобирается вся вселенная.",
-    "Продакшн — как карма: всё, что ты накосячил в прошлом, вернётся.",
-    "Мой стиль кодинга: пока работает — не объясняй",
-    "Сохраняй спокойствие. Git всё помнит.",
-    "Чужой код — это как чужая философия: понять можно, принять — сложно.",
-    "Чужой код — это как чужая философия: понять можно, принять — сложно.."
-]
 
 
 def get_phrase_by_day(phrases):
@@ -50,7 +38,4 @@ def update_file_placeholder(filename, placeholder, phrase):
 
 def run_phrase_update():
     phrase_en = get_phrase_by_day(PHRASES_EN)
-    phrase_ru = get_phrase_by_day(PHRASES_RU)
-
     update_file_placeholder("README.md", "[DAILY_PHRASE]", phrase_en)
-    update_file_placeholder("README.ru.md", "[DAILY_PHRASE_RU]", phrase_ru)

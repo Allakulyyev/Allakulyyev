@@ -1,9 +1,6 @@
 <p align="center">
   <img src="https://i.imgur.com/XuNohBx.gif" alt="Banner"/>
 </p>
-<p align="center">
-  <a href="README.ru.md">Читать на русском</a>
-</p>
 
 <h3 align="center">[DAILY_PHRASE]</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
