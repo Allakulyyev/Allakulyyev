@@ -8,39 +8,29 @@
 <h3 align="center">[DAILY_PHRASE]</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
-<h3>🧠 About Me</h3>
+### 🧠 About Me
 
-<div align="left">
-  <div style="
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    row-gap: 20px;
-    column-gap: 16px;
-  ">
+My name is **Maksat**, I’m [AGE] years old.. I’m a backend developer specializing in Python and system automation.  
+I love programming for its clarity, logic, and the power to build meaningful solutions.
 
-  <!-- 📷 Фото -->
-  <div style="
-    flex-shrink: 0;
-    width: 250px;
-    text-align: center;
-  ">
-    <img src="https://i.imgur.com/CDKKXvv.jpeg" 
-          style="width: 100%; border-radius: 12px;" 
-          alt="photo" />
-  </div>
+I focus on designing robust architectures, integrating with external systems, and streamlining internal processes.  
+Always exploring new tools to write better, simpler, and more reliable code.
 
-  <!-- 📝 Текст -->
-  <div style="flex: 1; min-width: 280px;">
-    <p>
-      My name is <strong>Maksat</strong>, I’m [AGE] years old.<br>
-      I’m a backend developer specializing in Python and system automation.<br><br>
-      I love programming for its clarity, logic, and the power to build meaningful solutions.<br><br>
-      I focus on designing robust architectures, integrating with external systems, and streamlining internal processes.<br>
-      Always exploring new tools to write better, simpler, and more reliable code.
-    </p>
-  </div>
+&nbsp;
 
-  </div>
-</div>
+## My Developer Toolkit
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="csharp" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" alt="sqlite" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1024px-Logo-ubuntu_cof-orange-hex.svg.png" height="40" alt="ubuntu" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma" />
+</p>
