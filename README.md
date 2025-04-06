@@ -2,12 +2,12 @@
   <img src="https://i.imgur.com/XuNohBx.gif" alt="Banner"/>
 </p>
 
-<h3 align="center">[DAILY_PHRASE]</h3>
+<h3 align="center">The system is stable. That’s what scares me.</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
 ### About Me
 
-My name is **Maksat**, I’m [AGE] years old.. I’m a backend developer specializing in Python and system automation.  
+My name is **Maksat**, I’m 28 years old.. I’m a backend developer specializing in Python and system automation.  
 I love programming for its clarity, logic, and the power to build meaningful solutions.
 
 I focus on designing robust architectures, integrating with external systems, and streamlining internal processes.  
