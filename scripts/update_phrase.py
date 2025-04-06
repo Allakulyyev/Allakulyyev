@@ -22,16 +22,22 @@ def get_phrase_by_day(phrases):
     index = datetime.datetime.now().timetuple().tm_yday % len(phrases)
     return phrases[index]
 
-def update_file_placeholder(filename, placeholder, phrase):
-    """Replace placeholder with phrase in given file"""
+def update_phrase_html_line(filename, new_phrase):
+    """Replace the <h3 align="center">...</h3> line with the new phrase"""
     with open(filename, "r", encoding="utf-8") as f:
-        content = f.read()
+        lines = f.readlines()
 
-    new_content = content.replace(placeholder, phrase)
+    updated_lines = []
+    for line in lines:
+        if line.strip().startswith('<h3 align="center">') and line.strip().endswith('</h3>'):
+            updated_lines.append(f'<h3 align="center">{new_phrase}</h3>\n')
+        else:
+            updated_lines.append(line)
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(new_content)
+        f.writelines(updated_lines)
 
 def run_phrase_update():
     phrase_en = get_phrase_by_day(PHRASES_EN)
-    update_file_placeholder("README.md", "[DAILY_PHRASE]", phrase_en)  # ← убраны лишние скобки
+    update_phrase_html_line("README.md", phrase_en)
+    print(f"Phrase updated to {phrase_en}")
