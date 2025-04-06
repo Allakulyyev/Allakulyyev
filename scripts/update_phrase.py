@@ -22,20 +22,28 @@ def get_phrase_by_day(phrases):
     index = datetime.datetime.now().timetuple().tm_yday % len(phrases)
     return phrases[index]
 
-def update_phrase_html_line(filename, new_phrase):
-    """Replace the <h3 align="center">...</h3> line with the new phrase"""
+def update_phrase_html_line(filename, new_phrase) -> bool:
     with open(filename, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     updated_lines = []
+    found = False
+
     for line in lines:
         if line.strip().startswith('<h3 align="center">') and line.strip().endswith('</h3>'):
             updated_lines.append(f'<h3 align="center">{new_phrase}</h3>\n')
+            found = True
         else:
             updated_lines.append(line)
 
-    with open(filename, "w", encoding="utf-8") as f:
-        f.writelines(updated_lines)
+    if found:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.writelines(updated_lines)
+        print(f"[✅] Inserted daily phrase: {new_phrase}")
+        return True
+    else:
+        print("[⚠️] No <h3 align=\"center\">...</h3> line found.")
+        return False
 
 def run_phrase_update():
     phrase_en = get_phrase_by_day(PHRASES_EN)
