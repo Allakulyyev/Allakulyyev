@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/XuNohBx.gif" alt="Banner"/>
 </p>
 
-<h3 align="center">Python doesn’t force structure. It politely suggests it.</h3>
+<h3 align="center">Every problem can be solved with a decorator. Or made worse.</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
 ### About Me
