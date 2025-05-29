@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/XuNohBx.gif" alt="Banner"/>
 </p>
 
-<h3 align="center">It worked yesterday. I changed nothing. It’s broken now.</h3>
+<h3 align="center">The cleaner the code, the dirtier the commit history.</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
 ### About Me
