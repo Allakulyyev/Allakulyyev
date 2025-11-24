@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/XuNohBx.gif" alt="Banner"/>
 </p>
 
-<h3 align="center">I'm not lazy — I'm just highly optimized</h3>
+<h3 align="center">Code. Break. Fix. Repeat.</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
 ### About Me
