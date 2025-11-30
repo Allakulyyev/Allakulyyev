@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/XuNohBx.gif" alt="Banner"/>
 </p>
 
-<h3 align="center">Security is when even you can’t access your own system.</h3>
+<h3 align="center">The system is stable. That’s what scares me.</h3>
 <p align="center"><i>daily dose of dev humor</i></p>
 
 ### About Me
